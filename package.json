@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "postinstall": "npm install && npm run build"
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
@@ -20,14 +20,13 @@
     "react-dom": "^18.3.1",
     "socket.io-client": "^4.8.1",
     "tailwind-merge": "^2.6.0",
-    "tailwindcss-animate": "^1.0.7",
-    "vite": "^4.0.0",
-    "@vitejs/plugin-react": "^4.3.4"
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.17.0",
     "eslint-plugin-react": "^7.37.2",
@@ -35,9 +34,10 @@
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.14.0",
     "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^3.4.17",
+    "vite": "^4.0.0"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=16"
   }
 }
